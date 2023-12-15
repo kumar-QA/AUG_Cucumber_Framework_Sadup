@@ -1,0 +1,606 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-12-15T11:29:50.101Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2557200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.hookexample.setup()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "S1",
+        "description": "",
+        "id": "demo1;s1",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.hookexample.closeBrwser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "hooks.hookexample.data()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "yet another action",
+            "match": {
+              "location": "stepdefination.demo2.yet_another_action()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "hooks.hookexample.data1()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "hooks.hookexample.data()"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "I validate the outcomes",
+            "match": {
+              "location": "stepdefination.demo2.i_validate_the_outcomes()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "hooks.hookexample.data1()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "hooks.hookexample.data()"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "check more outcomes",
+            "match": {
+              "location": "stepdefination.demo2.check_more_outcomes()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "hooks.hookexample.data1()"
+                }
+              }
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-12-15T11:29:50.153Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.hookexample.setup()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "s2",
+        "description": "",
+        "id": "demo1;s2",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.hookexample.closeBrwser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1249700,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "hooks.hookexample.data()"
+                }
+              }
+            ],
+            "line": 12,
+            "name": "yet another action",
+            "match": {
+              "location": "stepdefination.demo2.yet_another_action()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "hooks.hookexample.data1()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 999200,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1007000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "hooks.hookexample.data()"
+                }
+              }
+            ],
+            "line": 13,
+            "name": "I validate the outcomes",
+            "match": {
+              "location": "stepdefination.demo2.i_validate_the_outcomes()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "hooks.hookexample.data1()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "hooks.hookexample.data()"
+                }
+              }
+            ],
+            "line": 14,
+            "name": "check more outcomes",
+            "match": {
+              "location": "stepdefination.demo2.check_more_outcomes()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "hooks.hookexample.data1()"
+                }
+              }
+            ],
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "demo1",
+    "description": "",
+    "id": "demo1",
+    "keyword": "Feature",
+    "uri": "file:src/test/resource/FeatureFiles/Demo1.feature",
+    "tags": []
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3283925400,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "hooks.hookexample.data()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "Open Browser Enter Url",
+            "match": {
+              "location": "stepdefination.login.Open_Browser_Enter_Url()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "hooks.hookexample.data1()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-12-15T11:29:50.174Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.hookexample.setup()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "Login Function With Invalid Credentials",
+        "description": "",
+        "id": "login-function;login-function-with-invalid-credentials",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.hookexample.closeBrwser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 295716200,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "hooks.hookexample.data()"
+                }
+              }
+            ],
+            "line": 27,
+            "name": "Enter Invalid UserName and  Enter Invalid Password",
+            "match": {
+              "location": "stepdefination.login.invalid_cred(io.cucumber.datatable.DataTable)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "hooks.hookexample.data1()"
+                }
+              }
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "xyz.com",
+                  "c123"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 51045600,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "hooks.hookexample.data()"
+                }
+              }
+            ],
+            "line": 29,
+            "name": "Click On Submit Btn",
+            "match": {
+              "location": "stepdefination.login.Click_On_Submit_Btn()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "hooks.hookexample.data1()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"(//h1[contains(text(),Dashboard)])[2]\"}\n  (Session info: chrome\u003d120.0.6099.109)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: \u00274.11.0\u0027, revision: \u0027040bc5406b\u0027\nSystem info: os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.8\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [a69370e16ebbe31d8146b8d989640c82, findElement {using\u003dxpath, value\u003d(//h1[contains(text(),Dashboard)])[2]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.109, chrome: {chromedriverVersion: 120.0.6099.71 (9729082fe617..., userDataDir: C:\\Users\\mpras\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63540}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63540/devtoo..., se:cdpVersion: 120.0.6099.109, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: a69370e16ebbe31d8146b8d989640c82\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)\r\n\tat stepdefination.login.should_open_dashboard_page(login.java:45)\r\n\tat ✽.Should Open Dashboard Page(file:///C:/Users/mpras/eclipse-workspace/FrameWork_Cucumber/src/test/resource/FeatureFiles/Login.feature:30)\r\n",
+              "duration": 23605600,
+              "status": "failed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "hooks.hookexample.data()"
+                }
+              }
+            ],
+            "line": 30,
+            "name": "Should Open Dashboard Page",
+            "match": {
+              "location": "stepdefination.login.should_open_dashboard_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 505100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "hooks.hookexample.data1()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@negative"
+          }
+        ]
+      }
+    ],
+    "name": "Login Function",
+    "description": "",
+    "id": "login-function",
+    "keyword": "Feature",
+    "uri": "file:src/test/resource/FeatureFiles/Login.feature",
+    "tags": []
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-12-15T11:29:53.847Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.hookexample.setup()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Title of your scenario",
+        "description": "",
+        "id": "demo2;title-of-your-scenario",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.hookexample.closeBrwser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "hooks.hookexample.data()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "I want to write a step with precondition",
+            "match": {
+              "location": "stepdefination.demo1.i_want_to_write_a_step_with_precondition()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "hooks.hookexample.data1()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "hooks.hookexample.data()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "some other precondition",
+            "match": {
+              "location": "stepdefination.demo1.some_other_precondition()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "hooks.hookexample.data1()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "hooks.hookexample.data()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "I complete action",
+            "match": {
+              "location": "stepdefination.demo1.i_complete_action()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1007700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "hooks.hookexample.data1()"
+                }
+              }
+            ],
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@postive"
+          }
+        ]
+      }
+    ],
+    "name": "demo2",
+    "description": "",
+    "id": "demo2",
+    "keyword": "Feature",
+    "uri": "file:src/test/resource/FeatureFiles/demo2.feature",
+    "tags": []
+  }
+]
